@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center; 
+}
+
+h2 {
+    color: #faafaf;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px; 
+    margin: 0 auto 20px; 
+}
+
+
+
+
+.center-content {
+    max-width: 900px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* General styles for lists */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside; /* Ensures list bullets/numbers are inside the list container */
+    font-family: Arial, sans-serif; /* Sets a clean font */
+    font-size: 16px; /* Sets a readable font size */
+    color: #333; /* Sets text color */
+}
+
+/* Style for unordered lists (ul) */
+ul {
+    list-style-type: disc; /* Sets bullet points for unordered lists */
+    margin-left: 20px; /* Adds space from the left side */
+}
+
+/* Style for ordered lists (ol) */
+ol {
+    list-style-type: decimal; /* Sets numbers for ordered lists */
+    margin-left: 20px; /* Adds space from the left side */
+}
